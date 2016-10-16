@@ -1,0 +1,39 @@
+{
+  "name": "imgage-stuff",
+  "version": "1.0.0",
+  "description": "\"Fun image sharing to makethe day go by easily\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ngochibamu/image-stuff.git"
+  },
+  "keywords": [
+    "funny",
+    "image",
+    "sharing",
+    "-",
+    "amusing",
+    "photos"
+  ],
+  "author": "Ngonidzashe Chibamu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngochibamu/image-stuff/issues"
+  },
+  "homepage": "https://github.com/ngochibamu/image-stuff#readme",
+   "dependencies": {
+    "body-parser": "^1.5.2",
+    "errorhandler": "^1.1.1",
+    "express": "^4.8.0",
+    "express-handlebars": "*",
+    "cookie-parser": "*",
+    "express-session": "^1.7.2",
+    "method-override": "^2.1.2",
+    "morgan": "^1.2.2",
+    "multer": "^0.1.3",
+    "serve-favicon": "^2.0.1"
+  }
+}
